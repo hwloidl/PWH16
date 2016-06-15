@@ -1,0 +1,26 @@
+From Sabin's book:
+
+p13, middle: Role-playing is not suited to modelling outright conflict or even the
+dynamic progression of a situation, since there is no mechanism to move along  or to determine which side prevails.
+
+p 28, top: mentions Mulholland's review of historic accuracy of several board games: only the top game
+ receives a good in 3 out of 5 category; the 2 simplest don't receive any good, and even they are too
+ complex to use in a classroom setting
+
+p 28: mentions Snow's "two cultures" of arts and sciences
+
+p 28: Wargames are thus a fascinating blend of arts and science,and offer a welcome means of bridging
+the gap between Snow's two cultures.
+
+p 29: The trick is to exploit the motential [of simple game mechanics] to the maximum extent, by
+ devoting at least as much research and design effort to the microgame as is normally epanded on a full-size game.
+
+p 32: his own summary of "Rules for Conduct of the War-Game" handbook to Brit officers aroun 1884
+
+p 41: aims and objs of his game design course (incl LOs), and reflections on effectiveness
+
+Bib
+
+A. Mulholland, "Keeping the Colonies Royal", Against the Odds, 23, 32-44
+
+C.P.Snow (1961), "The two cultures and the scientific revolution", The Rede Lecture 1959, Cambridge University Press

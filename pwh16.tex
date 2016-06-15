@@ -1,0 +1,370 @@
+
+\documentclass[11pt]{article}
+\usepackage{digra}
+ 
+\usepackage[authordate,minnames=1,maxnames=2,maxbibnames=10,minbibnames=7]{biblatex-chicago}
+\AtEveryBibitem{\clearfield{doi}\clearfield{urlyear}\clearfield{urlmonth}\clearfield{urlday}}
+\DeclareFieldFormat[game]{title}{\mkbibemph{#1}}
+\DefineBibliographyStrings{english}{%
+  references = {},
+}
+
+%\usepackage[colorlinks=false]{hyperref}
+\usepackage[bookmarksnumbered,pdfpagelabels=true,plainpages=false,colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue,hyperfootnotes=false,nesting=true]{hyperref}
+
+\newcommand{\hwlcomment}[1]{$\spadesuit$\textsc{#1}$\spadesuit$}
+\renewcommand{\hwlcomment}[1]{}
+
+\addbibresource{bibliography.bib}
+
+\title{\addvspace{-2\baselineskip}The Jomini Engine: a historical MMORPG framework}
+\author{Hans-Wolfgang Loidl}
+\affil{
+% School of Mathematical and Computer Sciences, 
+Heriot-Watt University, 
+Edinburgh EH144AS \\
+% telephone \\
+\texttt{H.W.Loidl@hw.ac.uk} }
+
+\author{Sandy Louchart}
+\affil{
+% Digital Design Studio, The Glasgow School of Art, The Hub, Pacific Quay, G51 1EA, UK
+%Digital Design Studio,
+Glasgow School of Arts, 
+Glasgow G511EA \\
+%Address line 1 \\
+%Address line 2 \\
+%telephone \\
+\texttt{S.Louchart@gsa.ac.uk}}
+\date{\vspace{-60pt}}
+
+\begin{document}
+\pagenumbering{gobble} 
+\newpage
+\pagenumbering{arabic}  
+\addvspace{-1\baselineskip}
+   \maketitle
+   \addvspace{-1\baselineskip}
+    \copyrightnotice
+    
+   \section*{ABSTRACT}
+
+   This short paper discusses the design of the \href{http://www.macs.hw.ac.uk/~hwloidl/Projects/JominiEngine/}{JominiEngine}, a serious game engine for
+   massive multi-player online role-playing games (MMORPG), designed to be an educational
+   tool for the learning domain of history.
+   Main design principles of the game engine are
+   \emph{accuracy} in the historic model,
+   \emph{flexibility} in the scope of the content modeling, to cover a wide range of historic periods,
+   \emph{cooperative team-play embedded in a competitive game}, reflecting the  historical context, and
+   high \emph{security} in the interaction with the underlying game engine.
+   
+%% Place your abstract here. Your abstract goes here. In this paper we describe the formatting
+%% requirements for DiGRA Conference Proceedings, and offer recommendations on writing
+%% for the worldwide DiGRA readership.
+\section*{Keywords}
+Serious Games, Game Design, Historical Games, MMORPG
+
+\subsection*{INTRODUCTION}
+
+% motivation of a Serious Game in History
+The learning domain of history is attractive to a wide range of audiences, from
+young school children to senior citizens, finds particularly strong resonance in the
+U.K. where high quality TV productions often attract significant interest and shape a
+well informed audience. The means for transferring knowledge, however, hasn't changed
+much over the past decades, and most notably is uni-directional and very limited in
+the interaction that is possible for the customer. For these reasons, we believe that
+a new approach to history teaching is called for that focuses on the notion of
+\emph{``interactive history''}: providing an interactive framework in which the
+player can interact with a precisely modeled world, and explore the effects
+this interaction has on the world and its players.
+
+% core design principles in the game design
+We have designed a game engine for  MMORPGs that can serve as a platform for such interactive history.
+Its first instantiation  lets the player assume the role of a noble in Britain
+between 1194--1214, manage his/her estate, interact with other players, and perform sieges and battles.
+%
+In our game and system design we follow these overall design principles. \emph{Accuracy\/}
+of the modeled world is crucial in order to provide a convincing environment that reflects
+core concepts of society in a certain time period. \emph{Flexibility} is generally important
+for a  game \emph{engine}, that should be able to model a range of different time periods
+allowing for very different game mechanics. Core to the learning experience is the embedding 
+of \emph{co-operative} team-play into a game engine that is largely based on a historical, \emph{competitive} model,
+in order to learn about social interactions and dynamics, but also about limitations to communication,
+in the particular time period. And finally on the system side, we emphasise a high level
+of \emph{security} that needs to be built into the core game engine, securing the communication 
+between server and clients, and preventing players from corrupting the game data.
+
+% other issues to mention:
+% the importance of a \emph{moderated} game, where an experience player acts as a ``herald''
+% advising other players about proper in-game conduct
+% usefulness of open source, built-from-scratch game engine, over modding of an existing engin
+% importance of easy content authoring.
+
+% % status of our work so far; maybe move this to conclusion
+% This work is part of a longer-term initiative to build a complete game engine, matching these
+% requirements, and deploying it as a learning tool to interested partners. At this stage, we
+% have a working prototype of a core game engine, that models mainland Britain as 207 fiefs on a hex-map 
+% and is populated
+% with a realistic database of 1889 PCs and NPCs. The current implementation covers
+% core game concepts of finance management, household management and conflict management, and
+% is set in the time period from 1194--1214.  The choice of this time period was mainly motivated
+% by the availability of the NPC database, that has been generated by a co-author in the context
+% of a different project. The technical details of the game engine are discussed in more detail
+% in~(\cite{GALA15}) and the web page for this initiative  provides more background information~(\cite{JominiEngineURL}).
+
+\hwlcomment{fix citations}
+
+\hwlcomment{more on the type of game early: players as nobles that manage fiefs for income, raise armies and
+  wage war? But: the engine itself is more general than this specific instance.}
+
+%% Place your text here. Your text goes here. This format is to be used for submissions that
+%% are published in the electronic conference proceedings for DiGRA conferences\endnote{ The format was developed for DiGRA 2011, modified slightly for DiGRA Nordic 2012 and FDG/DiGRA 2016, and may change for future conferences. A slightly different format may apply for the forthcoming DiGRA journal.}
+%% . The
+%% same format will be used for conference articles uploaded to the DiGRA library.
+
+%% In essence, you should format your paper exactly like this document. The easiest way to
+%% do this is simply to download this template from the conference web site, and replace the
+%% content with your own material.
+
+\section*{BACKGROUND}
+
+\hwlcomment{Cover core related work here; some taken from the GALA paper; should also
+  cover key bg on Game Design for this paper}
+
+% should cover: game design, serious games for education in history; conflict simulation
+
+
+% From GALA15 paper: this focuses on historic wargames; the scope should be broader here: historic simulations
+%% Historic Wargames (HW) represent a significant part of
+%% well-established game traditions that includes both wargames and war
+%% simulations. The wargame genre pre-dates digital gaming and has
+%% traditionally been rooted in analogue game-play, such as the
+%% historical simulations developed by Avalon Hill [18] and the
+%% fantasy/sci-fi simulationsbattle worlds of Warhammer [19]. The recent
+%% digitization of the genre has opened up new avenues, possibilities and
+%% a renewed appeal to current generations of gamers. Beside its
+%% entertainment values, Kirschenbaum [20,17] points to wargames as
+%% relevant tools for teaching and reinforcing creative decision-making;
+%% a core aspect of wargaming, recognised since Georg von Reisswitz first
+%% introduced his wargaming rules in the early 19th Century [21,18].  HWs
+%% represent a popular genre and an increasing number of commercial
+%% history-based games have become available, many based on historical
+%% conflicts.  These games often contain a high degree of historical
+%% accuracy and vary both in, firstly, their level of abstraction (from
+%% ‘traditional’ wargames in which units are abstractly represented as
+%% counters on a hexagon map, to those that use cutting edge animation
+%% technology to allow the player to participate in battles) and,
+%% secondly, scale (from the modeling of a single battle, to theto the
+%% simulation of entire civilisations and time periods).  HW’s also often
+%% include role-playing elements; for example, the Crusader Kings series
+%% (which uses Paradox’s ClausewitzEngine) [22,19]. Although, not
+%% historically accurate, Clash of Clans [23,20], a ‘freemiuim’ mobile
+%% strategy MMO, was ranked 3rd (in 2013) in the global list of
+%% iOS/Android apps revenues [21].
+
+% The potential of serious games as a learning tool in the domain
+% of history has been acknowledged by many oauthors.
+Our characterisation of historical games can be summarised
+in Kirschenbaum's~(\cite*{Kirschenbaum}) words (on historic wargames) as ``a vehicle for its participants,
+either through role-playing or the arbitrary rule-based constraints of
+the game world, to critically examine their own assumptions and
+decision-making processes''. 
+This covers historical games, as well as classical wargames and increasingly
+also a broader class of simulations in the domains of management and cultural heritage. 
+Anderson~(\cite*{Anderson}) investigated the use of serious games
+in the field of cultural heritage and drew attention to the increasing
+provision of modding tools as an intrinsic part of many commercial
+games, allowing for them to be adapted for educational purposes. 
+In our case we emphasise accuracy and flexibility of the game, and therefore
+prefer building a game engine from scratch to be able to modify all components.
+% From
+% a design perspective, accuracy is a key feature for any wargame or
+% historical simulation.
+
+The design of our game engine and its historical accuracy has been
+strongly influenced by the design of the \textit{The Hundred Years War}
+by Dunnigan and Nofi~(\cite*{hyw}). This game  provides an entire on-line textbook by an
+academic as historical background for the game. Furthermore,
+Dunnigan~(\cite*{Dunnigan})  argues for realism in historical wargames but
+also makes a case for balancing historical accuracy with fun gameplay
+and promotes the notion of ``dynamic potential'',  i.e.\ mechanisms
+through which the player might interact with the game world in order
+to alter history, in order to better integrate both aspects of the
+design. 
+Sabin~(\cite*{Sabin}) argues even more strongly for simplicity in conflict simulations,
+by using simple game mechanics to its fullest  in what he calls micro-games.
+
+% Whilst this places an extra burden on the game designer who
+% needs to ensure accuracy, both in game data and mechanisms, it allows
+% for a contextual positioning of relevant aspects such as geography,
+% society, and military technology and doctrine.
+
+Several modern, commercial games demonstrate the feasibility of building an accurate game model:
+%  provide remarkable detail in the game model, : 
+Paradox's~(\cite*{ck2}) ClausewitzEngine in \textit{Crusader Kings\/} provides
+an impressive NPC database with detailed family connections, and
+emphasises  role-playing elements that reflect historical reality,
+such as the importance of family management and its interaction with the
+larger political process.
+%% ; for example, the  series
+%% (which uses Paradox’s ClausewitzEngine) [22,19]
+
+%% The DiGRA proceedings are formatted for a US Letter format, single column page. The
+%% size is chosen to allow for on-screen readability. On each page your material (not
+%% including the page number) should fit within a rectangle of 14 x 22 cm (5.5 x 8.75 in.),
+%% centered on a US letter page, beginning 2.54 cm (1 in.) from the top of the page. On an
+%% A4 page, use a text area of the same dimensions, again centered. Right margins should be
+%% justified, not ragged. Beware that Word can change these dimensions in unexpected
+%% ways.
+
+\section*{GAME DESIGN}
+
+% that can serve as an educational tool in history,
+
+The aforementioned game design principles are motivated by our long-term vision of
+a game engine for ``interactive history'', capturing diverse
+aspects such as the political system, the economy, the societal context, and
+conflict resolution, essentially wargaming.
+By abstracting over the concrete game mechanics, we gain flexibility over all 
+of these aspects, and can study them in a historical or an idealised context.
+%
+% not only in
+% terms of time-period, but also in terms of focus, so that concrete instances of
+% the game engine can be used to study specifc aspects, e.g.\ the societal model.
+
+An inherent tension in such a design is between accuracy, or realism, and playability, or engagement.
+We have opted to focus on accuracy in order to build solid foundations for the delivery
+of insights about the modeled world. However, we do not expect all of the underlying detail
+to be tunable, or even directly visible, to the player. We therefore focus on simple,
+high-level game mechanics, and translate these into a more complex system of configurable rules 
+in the game engine to drive the simulation. 
+It also allows us as game designers to re-visit the low-level rules, in an effort to
+improve the model, without necessarily disrupting the high-level game mechanics, and
+in this way learn ourselves about characteristics of the domain. As McCarthy~(\cite*{McCarthy}) states about wargame simulations,
+``Unfix [the terms of engagement] $\ldots$ and the simulation becomes a modeling exercise.
+Thus simulation crosses over into modeling when the constants of the system become variables.''
+This highlights an important long-term issue for us. The game engine can be used not only as a vehicle of interactive teaching, 
+but also as the object of study itself, giving insights on the modeling of history
+and also, from a systems point of view, teaching lessons in the design of large-scale software.
+
+We chose a \emph{role-playing game\/}  to put players into an immersive historical setting and to encourage player interaction.
+% as the most natural class of games that supports
+% the player interaction to be expected in a historical setting. 
+In particular, for any larger scale activity, such as a siege, players would need to interact
+and form teams, with the team leader, often the King, having to ensure loyalty.
+To this end, we classified the available resources along several dimensions,
+such as (non-)transferable, (non-)replenishable etc, and we provide a hierarchical
+model of PCs in the game, typically with the King at the root of the hierarchy.
+Game resources are allocated asymmetrically to PCs on different levels of the
+hierarchy. To compensate for the ``unfairness'' in this allocation, a prestige-system
+is used in the game to track a player's achievements, separately from tracking
+the accumulation of tradeable resources.
+
+In the current design the JominiEngine takes a \emph{strategic view\/} (or macro-history view) of the world,
+modeling mainland Britain as a hex-map of 207 fiefs, and providing an NPC
+database with 1889 entries. In this view, resource management issues and
+conflict resolution take primary roles, as expected from a historical simulation.
+However, we also put strong emphasis on the household and family management
+component, to give the player a more tangible concept at the centre of the planning,
+and to highlight the issue of dynastic planning over a longer time frame.
+%
+% probably less important, but would be a nice balance to the classic view
+%
+This strategic view should in the long-term be complemented with a more
+tactical view that should allow the player to ``zoom in'', for example
+into a particular fief, in order to manage the planning of its development in
+more detail, or into a battle between two armies, to influence its outcome
+not only based on the skill levels of the NPCs, but also taking in decisions
+about actions in several phases of the battle. 
+% A prototype for the latter has
+% been developed in a related project, but not yet been integrated into the
+% JominiEngine. Such two views help increase player engagement by letting them
+% choose their preferred mode of play, and is used in popular commercial
+% game engines such as~\textit{Total War}.
+
+% Crucial to the success of such a game engine as educational tool will be the
+% balance between learning objectives in the domain of history, and player
+% engagement facilitated by historical narratives, a diverse range of player
+% actions, and the graphical interface provided to the player. On the latter
+% side our current implementation provides a fairly basic interface. However,
+% by building the game client on the Unity framework, it has a lot of
+% potential in making it more attractive.
+
+Crucial to the success of such a game engine as educational tool will be the
+balance between learning objectives in the domain of history, and player
+engagement facilitated by historical narratives, a diverse range of player
+actions, and the graphical interface provided to the player.
+The core narrative is, at the moment, fairly loose and focused on empire and domain
+building, taking a macro-history view, and including a tunable notion of prestige.
+We however plan to complement this with aspects of micro-history, to allow the player
+to see the wider societal context of the world.
+On the client
+side our current implementation provides a fairly basic interface. However,
+by building the game client on the Unity framework, it has a lot of
+potential in making it more attractive.
+
+
+\hwlcomment{need to add more on game narrative and immersive player experience here}
+
+
+\section*{CONCLUSION}
+
+We have discussed the long-term vision and the main game design aspects in
+developing a game engine as an educational tool for the learning domain of history: the \href{http://www.macs.hw.ac.uk/~hwloidl/Projects/JominiEngine/}{JominiEngine}. % cite{JominiEngineURL}.
+At this stage, we have a working prototype of a core game engine, as well as an instantiation of the game
+that models mainland Britain as 207 fiefs on a hex-map and is populated
+with a realistic database of 1889 PCs and NPCs. The current implementation covers
+core game concepts of finance management, household management and conflict management, and
+is set in the time period from 1194--1214.
+The technical details of the game engine are discussed in more detail
+in~(\cite{GALA15}) and the \href{http://www.macs.hw.ac.uk/~hwloidl/Projects/JominiEngine/}{web page} for this initiative provides more background information. % ~(\cite{JominiEngineURL})
+
+We view such a flexible game engine, that can model different time periods and can focus on different
+aspects of the game world, as a useful complementary tool in history education, making the
+learning process more interactive and driven by the learner. By choosing a specific time period
+and a  topic, such as noble interaction in a feudal society, the teacher
+can describe the general framework for the learning experience, and select from
+a range of available narratives to guide the student towards the intended learning outcome.
+
+\hwlcomment{Comment on current size of server, size of DB, and security enhancements}
+
+% While the current version of the JominiEngine is not yet at a deployable stage, the core
+% system functionality is available, and secure. 
+A focus for future development is an extension of the rule-based low-level game model,
+content authoring of a precise historical game world, adding core concepts such as religion, and to
+improve the interface of the client to make it more attractive for players.
+%
+By designing a flexible, OpenSource game engine from scratch we also want to provide a
+\emph{``motherboard''} for further studies in using specific game mechanics in this engine,
+and we invite interested researchers to co-operate in this process~(\cite{JominiEngineURL}).
+
+\hwlcomment{Comment on macro-vs-micro history; the importance of a \emph{moderated} game, where an experience player acts as a ``herald'' advising other players about proper in-game conduct; usefulness of open source, built-from-scratch game engine, over modding of an existing engine; importance of easy content authoring.}
+
+%% It is important that you write for the DiGRA audience. Please read previous years’
+%% Proceedings (available from the DiGRA library, http://www.digra.org/dl) to understand
+%% the writing style and conventions that successful authors have used. It is particularly
+%% important that you state clearly what you have done, not merely what you plan to do, and
+%% explain how your work is different from previously published work, i.e., what is the
+%% unique contribution that your work makes to the field? Please consider what the reader 
+%% will learn from your submission, and how they will find your work useful. If you write
+%% with these questions in mind, your work is more likely to be successful, both in being
+%% accepted into the conference, and in influencing the work of our field.
+
+% \section*{ACKNOWLEDGMENTS}
+
+% We would like to thank the Scottish Informatics and Computer Science Alliance (SICSA) for
+% their support of the JominiEngine initiative.
+
+% \section*{ENDNOTES}
+% \addvspace{-1\baselineskip} %%I can't find another way to reduce the size of the gap for the end notes
+% \theendnotes
+
+\section*{BIBLIOGRAPHY}
+\vspace{-1em}
+{
+%\setlength{\parskip}{1pt} 
+\begin{small}
+\printbibliography
+\end{small}
+}
+\end{document}

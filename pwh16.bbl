@@ -1,0 +1,177 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.6 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{cms/global}
+    \entry{Anderson}{article}{}
+      \name{author}{6}{}{%
+        {{uniquename=0,hash=eedd9e43899edc111c5939cd9542a966}{%
+           family={Anderson},
+           family_i={A\bibinitperiod},
+           given={E.\bibnamedelimi F.},
+           given_i={E\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{uniquename=0,hash=7054637e6ace07fcd70b41a3f7005701}{%
+           family={McLoughlin},
+           family_i={M\bibinitperiod},
+           given={L.},
+           given_i={L\bibinitperiod}}}%
+        {{uniquename=0,hash=e184bb69405d42c3312af71862087559}{%
+           family={Liarokapis},
+           family_i={L\bibinitperiod},
+           given={F.},
+           given_i={F\bibinitperiod}}}%
+        {{uniquename=0,hash=c09b04d94030fe779a73928fa8040aff}{%
+           family={Peters},
+           family_i={P\bibinitperiod},
+           given={C.},
+           given_i={C\bibinitperiod}}}%
+        {{uniquename=0,hash=64f83cea09410217f33497ee6c3950c7}{%
+           family={Petridis},
+           family_i={P\bibinitperiod},
+           given={P.},
+           given_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=f121b21d232a381e270547a8dbe29cad}{%
+           family={{de\bibnamedelimb Freitas}},
+           family_i={d\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{f217cf9f380ac3662e5d803aec8e4a01}
+      \strng{fullhash}{e29f795a55346add2f4ec52ce168063a}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Virtual Reality}
+      \field{number}{4}
+      \field{title}{{Developing serious games for cultural heritage: a state-of-the-art review.}}
+      \field{volume}{14}
+      \field{year}{2010}
+      \field{pages}{255\bibrangedash 275}
+      \range{pages}{21}
+    \endentry
+    \entry{Dunnigan}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=5eae964eb06d259d5e4d1cb755760203}{%
+           family={Dunnigan},
+           family_i={D\bibinitperiod},
+           given={J.F.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Writers Club Press, Lincoln}%
+      }
+      \strng{namehash}{5eae964eb06d259d5e4d1cb755760203}
+      \strng{fullhash}{5eae964eb06d259d5e4d1cb755760203}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelyear}{2000}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{Third}
+      \field{title}{{Wargames handbook: How to play and design commercial and professional wargames}}
+      \field{year}{2000}
+    \endentry
+    \entry{ck2}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=413be1916548690945c3c79149447eed}{%
+           family={interactive},
+           family_i={i\bibinitperiod},
+           given={Paradox},
+           given_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{413be1916548690945c3c79149447eed}
+      \strng{fullhash}{413be1916548690945c3c79149447eed}
+      \field{sortinit}{i}
+      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
+      \field{labelyear}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{accessed: 18 Oct. 2015}
+      \field{title}{{\textit{Crusader Kings 2}}}
+      \verb{url}
+      \verb http://www.crusaderkings.com/
+      \endverb
+    \endentry
+    \entry{Kirschenbaum}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=3674efb4ff645d4685b4f78204c94ac0}{%
+           family={Kirschenbaum},
+           family_i={K\bibinitperiod},
+           given={M.},
+           given_i={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {on-line blog}%
+      }
+      \strng{namehash}{3674efb4ff645d4685b4f78204c94ac0}
+      \strng{fullhash}{3674efb4ff645d4685b4f78204c94ac0}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelyear}{2011}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{accessed: 18 Oct. 2015}
+      \field{title}{{War; what is it good for? Learning from wargaming}}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://www.playthepast.org/?p=1819
+      \endverb
+    \endentry
+    \entry{hyw}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,hash=c0b1c58c3330c6bdd515cb2287750e6f}{%
+           family={Nofi},
+           family_i={N\bibinitperiod},
+           given={A.A.},
+           given_i={A\bibinitperiod}}}%
+        {{uniquename=0,hash=5eae964eb06d259d5e4d1cb755760203}{%
+           family={Dunnigan},
+           family_i={D\bibinitperiod},
+           given={J.F.},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {DENO Partnership}%
+      }
+      \strng{namehash}{27c5a3c6cc3f9caf030913a9e486f8a6}
+      \strng{fullhash}{27c5a3c6cc3f9caf030913a9e486f8a6}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelyear}{1997}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{accessed: 18 Oct. 2015}
+      \field{title}{{Medieval life and The Hundred Years War}}
+      \field{year}{1997}
+      \verb{url}
+      \verb http://www.hundredyearswar.com/Books/History/1_help_c.htm
+      \endverb
+    \endentry
+  \endsortlist
+  \missing{GALA15}
+  \missing{JominiEngineURL}
+\endrefsection
+\endinput
+
