@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 2.6 $
+% $ biblatex bbl format version 2.5 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,39 +18,15 @@
 
 
 \refsection{0}
-  \sortlist[entry]{cms/global}
+  \sortlist{cms}{cms}
     \entry{Anderson}{article}{}
       \name{author}{6}{}{%
-        {{uniquename=0,hash=eedd9e43899edc111c5939cd9542a966}{%
-           family={Anderson},
-           family_i={A\bibinitperiod},
-           given={E.\bibnamedelimi F.},
-           given_i={E\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-        {{uniquename=0,hash=7054637e6ace07fcd70b41a3f7005701}{%
-           family={McLoughlin},
-           family_i={M\bibinitperiod},
-           given={L.},
-           given_i={L\bibinitperiod}}}%
-        {{uniquename=0,hash=e184bb69405d42c3312af71862087559}{%
-           family={Liarokapis},
-           family_i={L\bibinitperiod},
-           given={F.},
-           given_i={F\bibinitperiod}}}%
-        {{uniquename=0,hash=c09b04d94030fe779a73928fa8040aff}{%
-           family={Peters},
-           family_i={P\bibinitperiod},
-           given={C.},
-           given_i={C\bibinitperiod}}}%
-        {{uniquename=0,hash=64f83cea09410217f33497ee6c3950c7}{%
-           family={Petridis},
-           family_i={P\bibinitperiod},
-           given={P.},
-           given_i={P\bibinitperiod}}}%
-        {{uniquename=0,hash=f121b21d232a381e270547a8dbe29cad}{%
-           family={{de\bibnamedelimb Freitas}},
-           family_i={d\bibinitperiod},
-           given={S.},
-           given_i={S\bibinitperiod}}}%
+        {{uniquename=0,hash=eedd9e43899edc111c5939cd9542a966}{Anderson}{A\bibinitperiod}{E.\bibnamedelimi F.}{E\bibinitperiod\bibinitdelim F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=7054637e6ace07fcd70b41a3f7005701}{McLoughlin}{M\bibinitperiod}{L.}{L\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=e184bb69405d42c3312af71862087559}{Liarokapis}{L\bibinitperiod}{F.}{F\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=c09b04d94030fe779a73928fa8040aff}{Peters}{P\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=64f83cea09410217f33497ee6c3950c7}{Petridis}{P\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=f121b21d232a381e270547a8dbe29cad}{{de\bibnamedelimb Freitas}}{d\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
       }
       \strng{namehash}{f217cf9f380ac3662e5d803aec8e4a01}
       \strng{fullhash}{e29f795a55346add2f4ec52ce168063a}
@@ -68,13 +44,32 @@
       \field{pages}{255\bibrangedash 275}
       \range{pages}{21}
     \endentry
+    \entry{GALA15}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{uniquename=0,hash=523f65c824d4e627f59a1714db8942d3}{Bond}{B\bibinitperiod}{D.A.}{D\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=b20e3b4bc040981830b96590b76f6721}{Loidl}{L\bibinitperiod}{H-W.}{H\bibinithyphendelim W\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=9db5944fdfd7a987d2fdc7f0c007e982}{Louchart}{L\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Rome, Italy}%
+      }
+      \strng{namehash}{56adcb83f82353e5b015e443d9ee9a24}
+      \strng{fullhash}{f9479e515dde7c356065f2b86061ca7e}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelyear}{2015}
+      \field{labelmonth}{12}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{The Games and Learning Alliance conference (GALA 2015)}}
+      \field{month}{12}
+      \field{title}{{Design and Implementation of the Jomini Engine: Towards a historical Massively Multiplayer Online Role-Playing Game}}
+      \field{year}{2015}
+    \endentry
     \entry{Dunnigan}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,hash=5eae964eb06d259d5e4d1cb755760203}{%
-           family={Dunnigan},
-           family_i={D\bibinitperiod},
-           given={J.F.},
-           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=5eae964eb06d259d5e4d1cb755760203}{Dunnigan}{D\bibinitperiod}{J.F.}{J\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {Writers Club Press, Lincoln}%
@@ -87,41 +82,36 @@
       \field{datelabelsource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{Third}
+      \field{edition}{Third edition}
       \field{title}{{Wargames handbook: How to play and design commercial and professional wargames}}
       \field{year}{2000}
     \endentry
-    \entry{ck2}{misc}{}
+    \entry{JominiEngineURL}{misc}{}
       \name{author}{1}{}{%
-        {{uniquename=0,hash=413be1916548690945c3c79149447eed}{%
-           family={interactive},
-           family_i={i\bibinitperiod},
-           given={Paradox},
-           given_i={P\bibinitperiod}}}%
+        {{uniquename=0,hash=fece1133e819d89c2280a7514d874d1a}{{H-W.\bibnamedelimi Loidl\bibnamedelimb et\bibnamedelimb al}}{H\bibinitperiod}{}{}{}{}{}{}}%
       }
-      \strng{namehash}{413be1916548690945c3c79149447eed}
-      \strng{fullhash}{413be1916548690945c3c79149447eed}
-      \field{sortinit}{i}
-      \field{sortinithash}{25e99d37ba90f7c4fb20baf4e310faf3}
-      \field{labelyear}{nodate}
+      \strng{namehash}{fece1133e819d89c2280a7514d874d1a}
+      \strng{fullhash}{fece1133e819d89c2280a7514d874d1a}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{accessed: 18 Oct. 2015}
-      \field{title}{{\textit{Crusader Kings 2}}}
+      \field{howpublished}{Web page}
+      \field{note}{accessed: 25 Apr. 2016}
+      \field{title}{{The Jomini Engine}}
+      \field{year}{2016}
       \verb{url}
-      \verb http://www.crusaderkings.com/
+      \verb http://www.macs.hw.ac.uk/~hwloidl/Projects/JominiEngine/
       \endverb
     \endentry
     \entry{Kirschenbaum}{book}{}
       \name{author}{1}{}{%
-        {{uniquename=0,hash=3674efb4ff645d4685b4f78204c94ac0}{%
-           family={Kirschenbaum},
-           family_i={K\bibinitperiod},
-           given={M.},
-           given_i={M\bibinitperiod}}}%
+        {{uniquename=0,hash=3674efb4ff645d4685b4f78204c94ac0}{Kirschenbaum}{K\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
-        {on-line blog}%
+        {On-line blog}%
       }
       \strng{namehash}{3674efb4ff645d4685b4f78204c94ac0}
       \strng{fullhash}{3674efb4ff645d4685b4f78204c94ac0}
@@ -131,25 +121,38 @@
       \field{datelabelsource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{accessed: 18 Oct. 2015}
+      \field{note}{accessed: 25 Apr. 2015}
       \field{title}{{War; what is it good for? Learning from wargaming}}
       \field{year}{2011}
       \verb{url}
       \verb http://www.playthepast.org/?p=1819
       \endverb
     \endentry
+    \entry{McCarthy}{inbook}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=9baad2075eb530082263fd683662b4b2}{McCarthy}{M\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-Blackwell}%
+      }
+      \strng{namehash}{9baad2075eb530082263fd683662b4b2}
+      \strng{fullhash}{9baad2075eb530082263fd683662b4b2}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelyear}{2004}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{chapter}{{Modelling: a Study of Words and Meaning}}
+      \field{title}{{A Companion to Digital Humanities}}
+      \field{year}{2004}
+      \field{pages}{254\bibrangedash 269}
+      \range{pages}{16}
+    \endentry
     \entry{hyw}{book}{}
       \name{author}{2}{}{%
-        {{uniquename=0,hash=c0b1c58c3330c6bdd515cb2287750e6f}{%
-           family={Nofi},
-           family_i={N\bibinitperiod},
-           given={A.A.},
-           given_i={A\bibinitperiod}}}%
-        {{uniquename=0,hash=5eae964eb06d259d5e4d1cb755760203}{%
-           family={Dunnigan},
-           family_i={D\bibinitperiod},
-           given={J.F.},
-           given_i={J\bibinitperiod}}}%
+        {{uniquename=0,hash=c0b1c58c3330c6bdd515cb2287750e6f}{Nofi}{N\bibinitperiod}{A.A.}{A\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=5eae964eb06d259d5e4d1cb755760203}{Dunnigan}{D\bibinitperiod}{J.F.}{J\bibinitperiod}{}{}{}{}}%
       }
       \list{publisher}{1}{%
         {DENO Partnership}%
@@ -169,9 +172,44 @@
       \verb http://www.hundredyearswar.com/Books/History/1_help_c.htm
       \endverb
     \endentry
+    \entry{ck2}{misc}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=2bf0c071be62c81e1603f69600a8a45e}{{Paradox\bibnamedelimb Interactive}}{P\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{2bf0c071be62c81e1603f69600a8a45e}
+      \strng{fullhash}{2bf0c071be62c81e1603f69600a8a45e}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelyear}{2016}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{accessed: 25 Apr. 2015}
+      \field{title}{{\textit{Crusader Kings 2}}}
+      \field{year}{2016}
+      \verb{url}
+      \verb http://www.crusaderkings.com/
+      \endverb
+    \endentry
+    \entry{Sabin}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ab9475cd19ef35c714a63a5033268da5}{Sabin}{S\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Bloomsbury Academic}%
+      }
+      \strng{namehash}{ab9475cd19ef35c714a63a5033268da5}
+      \strng{fullhash}{ab9475cd19ef35c714a63a5033268da5}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Simulating War: Studying Conflict through Simulation Games}}
+      \field{year}{2014}
+    \endentry
   \endsortlist
-  \missing{GALA15}
-  \missing{JominiEngineURL}
 \endrefsection
 \endinput
 
